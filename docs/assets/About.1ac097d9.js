@@ -1,0 +1,1 @@
+import{P as o}from"./PostContent.bd0516fc.js";import{f as r}from"./fetcher.f18d3fa2.js";import{j as n,a}from"./index.5dc63464.js";function d(){const e="{pageBy(pageId:52){title,content}}",{data:t,error:s}=r(e);return n("div",{className:"page",children:[a("h2",{children:t.data.pageBy.title}),a(o,{html:t.data.pageBy.content})]})}export{d as default};
